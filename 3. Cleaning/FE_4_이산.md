@@ -879,4 +879,5 @@ Index(['mean perimeter', 'mean smoothness', 'mean symmetry', 'worst texture',
 
 ---
 
-출처 [GitHub / Yimeng-Zhang (Amazing-Feature-Engineering)]
+참고 [GitHub / Yimeng-Zhang (Amazing-Feature-Engineering)]
+블로그 작성 [https://traceofones.tistory.com/entry/Feature-Engineering-Feature-Selection]
