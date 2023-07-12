@@ -90,6 +90,8 @@ explore.discrete_var_barplot(
 );
 ```
 
+검은 막대는 오차를 의미-->?
+
 #### countplot
 
 ```js
@@ -99,6 +101,8 @@ explore.discrete_var_countplot(
   (output_path = "./output/")
 );
 ```
+
+Pclass의 빈도수 측정
 
 #### boxplot
 
@@ -111,7 +115,9 @@ explore.discrete_var_boxplot(
 );
 ```
 
-#### distplot
+Pclass의 요금에 관한 데이터 분석
+
+#### distplot --> 삭제예정?
 
 ```js
 explore.continuous_var_distplot(
@@ -146,3 +152,5 @@ print(flights.head(5))
 flights = flights.pivot("month", "year", "passengers")
 explore.heatmap(data=flights,output_path='./output/')
 ```
+
+pivot 함수를 사용하면 "month"를 인덱스로, "year"를 컬럼으로 "passengers"를 값으로 하는 새로운 DataFrame이 생성된다.
