@@ -12,4 +12,4 @@
 4. Clustering
 5. Classification
 6. Regression
-7. AutoML & Pipeline
+7. PyTorch
